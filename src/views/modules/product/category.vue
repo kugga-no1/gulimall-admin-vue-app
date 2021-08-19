@@ -90,7 +90,7 @@ export default {
       menus: [],
       expandedKey: [],
       defaultProps: {
-        children: "childrens",
+        children: "children",
         label: "name"
       }
     };

@@ -216,7 +216,7 @@ export default {
             if (data && data.code === 0) {
               this.dataForm.attrName = data.attr.attrName;
               this.dataForm.searchType = data.attr.searchType;
-              this.dataForm.valueType = data.attr.valueType;
+              this.dataForm.valueType = 0;
               this.dataForm.icon = data.attr.icon;
               this.dataForm.valueSelect = data.attr.valueSelect.split(";");
               this.dataForm.attrType = data.attr.attrType;
